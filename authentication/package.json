@@ -1,0 +1,15 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node/auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon --ignore sessions/ auth.js"
+  },
+  "author": "Trevor Bennett",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3"
+  }
+}
